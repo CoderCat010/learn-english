@@ -12,3 +12,10 @@ body{
     font-family: "Poppins", sans-serif;
     /* font-family: "Hind Siliguri", sans-serif; */
 }
+
+button, li, a, input{
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
