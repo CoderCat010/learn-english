@@ -1,21 +1,23 @@
-*{
+@layer base{*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}}
 
 body{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 80px;
     font-family: "Poppins", sans-serif;
-    /* font-family: "Hind Siliguri", sans-serif; */
 }
 
-button, li, a, input{
-    outline: none;
-    text-decoration: none;
-    list-style: none;
-    cursor: pointer;
+.font-bangla{
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+
+/* header section */
+nav{
+    width: 100vw;
+    margin-left: calc(50% - 50vw);;
 }
