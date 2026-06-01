@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}}
+}
+}
 
 body{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 .font-bangla{
@@ -28,7 +31,14 @@ input{
 
 
 /* header section */
-nav{
+nav {
     width: 100vw;
-    margin-left: calc(50% - 50vw);
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    padding-left: calc(50vw - 580px);
+    padding-right: calc(50vw - 580px);
 }
+
+
+
