@@ -1,0 +1,17 @@
+<div class="grid grid-cols-3 gap-x-0 gap-y-7 justify-items-center">
+                    <div class="bg-[#fff] w-[350px] rounded-lg py-10 px-11">
+                        <!-- card title -->
+                        <h4 class="text-[#000] font-semibold text-2xl">Eager</h4>
+                        <p class="text-sm text-[#000000e1] mt-2 mb-5">Meaning / Pronounciation</p>
+                        <h3 class="text-[#18181bcc] font-bangla text-xl font-semibold">"আগ্রহী / ইগার"</h3>
+                        <!-- card icons -->
+                        <div class="flex justify-between mt-7">
+                            <span class="bg-[#1a90ff28] text-[#374957] py-2 px-3 rounded-md">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+                            <span class="bg-[#1a90ff28] text-[#374957] py-2 px-3 rounded-md">
+                                <i class="fa-solid fa-volume-low"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
